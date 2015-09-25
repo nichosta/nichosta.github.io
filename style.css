@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Bukhari Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bukhari Script'), url(Bukhari.ttf) format('truetype');
+    unicode-range: U+0000-00FF;
+}
+html, body {
+    height: 100vh;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+body {
+    font-family: "Bukhari Script", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(to bottom right, #54c785, #36b4db);
+    overflow: hidden;
+}
+h1, h2 {
+    margin: 0;
+    color: white;
+    font-weight: 100;
+}
+h1 {
+    font-size: 8em;
+    margin-bottom: -20px;
+}
+h2 {
+    font-size: 2.5em;
+}
+
+.social {
+    margin-top: 15px;
+}
+.social a {
+    width: 50px;
+}
+.social img {
+    width: 40px;
+    cursor: pointer;
+    margin: 10px;
+    filter: none;
+    transform: none;
+}
+.social a:hover img {
+    transform: rotateY(360deg);
+    transition: .4s;
+}
