@@ -12,11 +12,25 @@ html, body {
 }
 body {
     font-family: "Bukhari Script", sans-serif;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0;
+    background: -webkit-linear-gradient(top left, #54c785, #36b4db);
     background: linear-gradient(to bottom right, #54c785, #36b4db);
     overflow: hidden;
 }
@@ -28,9 +42,11 @@ h1, h2 {
 h1 {
     font-size: 8em;
     margin-bottom: -15px;
+    text-shadow: -2px -1px lightgrey;
 }
 h2 {
     font-size: 2.5em;
+    text-shadow: -1px -1px lightgrey;
 }
 
 .social {
@@ -43,10 +59,13 @@ h2 {
     width: 40px;
     cursor: pointer;
     margin: 10px;
-    filter: none;
-    transform: none;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
 }
 .social a:hover img {
-    transform: rotateY(360deg);
-    transition: .4s;
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+    -webkit-transition: .4s;
+            transition: .4s;
 }
