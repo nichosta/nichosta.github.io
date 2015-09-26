@@ -52,10 +52,10 @@ h2 {
 .social {
     margin-top: 7px;
 }
-.social a {
+a {
     width: 50px;
 }
-.social img {
+img {
     width: 40px;
     cursor: pointer;
     margin: 10px;
@@ -63,9 +63,7 @@ h2 {
         -ms-transform: none;
             transform: none;
 }
-.social a:hover img {
-    -webkit-transform: rotateY(360deg);
-            transform: rotateY(360deg);
+img:hover {
     -webkit-transition: .4s;
             transition: .4s;
 }
