@@ -1,3 +1,4 @@
 # nc.io
-### Website of Nicholas Costa.
-### [Link](http://erikboesen.github.io/nc.io)
+
+GitHub page of Nicholas Costa.
+[View Live](http://nichosta.github.io)
